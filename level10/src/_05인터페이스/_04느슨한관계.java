@@ -1,5 +1,8 @@
 package _05인터페이스;
 
+//import java.util.ArrayList;
+//import java.util.Collection;
+
 interface I{
 	void methodI();
 }
@@ -31,5 +34,9 @@ public class _04느슨한관계 {
 		AAA a = new AAA();
 		a.methodA(new BBB());
 		a.methodA(new CCC());
+		
+		//Collection<E>
+		
+//		ArrayList<Integer> i = null;
 	}
 }
