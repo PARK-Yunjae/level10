@@ -23,7 +23,7 @@ public class _01접근제어자테스트{
 		c.a = 100;
 		//c.b = 10; child 객체 자체는  Main 다른 패키지안에 있기때문에 접근 불가능 
 		
-		AccessTest e = new AccessTest();
+//		AccessTest e = new AccessTest();
 		
 	
 	}
