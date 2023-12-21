@@ -1,6 +1,6 @@
 package _11콜렉션Member;
 
-public class Member{
+public class Member implements Comparable<Member>{
 	private String id;
 	private String pw;
 
@@ -32,5 +32,10 @@ public class Member{
 	
 	public String dataToFile() {
 		return id+"/"+pw;
+	}
+
+	@Override
+	public int compareTo(Member o) {
+		return this.id.compareTo(o.id);
 	}
 }

@@ -19,7 +19,7 @@ public class Util {
 				System.out.println("범위 오류");
 				return -1;
 			}
-		}catch (NumberFormatException e) {
+		}catch (Exception e) {
 			System.out.println("숫자를 입력해 주세요");
 		}
 		return sel;
